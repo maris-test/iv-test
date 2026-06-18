@@ -3665,6 +3665,9 @@ InteractiveVideo.prototype.findNextInteractionToHide = function (time) {
   for (var i = 0; i < this.visibleInteractions.length; i++) {
     if (this.interactions[this.visibleInteractions[i]]) {
       const duration = this.interactions[this.visibleInteractions[i]].getDuration();
+      if (duration.from > time) {
+        return i; // Probably seeking backwards
+      }
       if (candidate === undefined || duration.to < this.interactions[this.visibleInteractions[candidate]].getDuration().to) {
         candidate = i;
       }
