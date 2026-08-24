@@ -61,7 +61,7 @@
                       },
                       {
                         "label": "Originalo kalba turi būti apibrėžta subtitrams",
-
+                        "default": "en",
                         "description": "Turi būti galiojanti BCP 47 kalbos žyma. Jei pasirinktas teksto takelio tipas yra „Subtitrai“, turi būti nustatyta takelio šaltinio kalba."
                       },
                       {
@@ -164,7 +164,8 @@
                     "label": "Vaizdai",
                     "fields": [
                       {
-                        "label": "Fono spalva"
+                        "label": "Fono spalva",
+                        "default": "rgb(255, 255, 255)"
                       },
                       {
                         "label": "Dėžutės šešėlis",
@@ -504,6 +505,10 @@
         {
           "label": "Text for how to create interactions",
           "default": "Play the video to start creating interactions"
+        },
+        {
+          "label": "test label",
+          "default": "testtetete"
         }
       ]
     }

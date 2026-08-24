@@ -61,6 +61,7 @@
                       },
                       {
                         "label": "Limba sursă, trebuie definită pentru subtitrări",
+                        "default": "en",
                         "description": "Trebuie să fie o etichetă de limbă BCP 47 validă. Dacă 'Subtitrări' este tipul de pistă de text selectat, limba sursă a pistei trebuie definită."
                       },
                       {
@@ -163,7 +164,8 @@
                     "label": "Vizualuri",
                     "fields": [
                       {
-                        "label": "Culoare de fundal"
+                        "label": "Culoare de fundal",
+                        "default": "rgb(255, 255, 255)"
                       },
                       {
                         "label": "Umbră casetă",
@@ -503,6 +505,10 @@
         {
           "label": "Informații despre cum să începeți crearea interacțiunilor",
           "default": "Redați videoclipul pentru a începe crearea interacțiunilor"
+        },
+        {
+          "label": "test label",
+          "default": "testtetete"
         }
       ]
     }

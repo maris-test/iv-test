@@ -61,7 +61,7 @@
                       },
                       {
                         "label": "Kaynak dil, altyazılar için tanımlanmak zorundadır",
-
+                        "default": "en",
                         "description": "Geçerli bir BCP 47 dil etiketine sahip olmalı. Eğer 'Altyazılar' metinden takip türü olarak seçilmişse, metinden takibin kaynak dili tanımlanmalıdır."
                       },
                       {
@@ -164,7 +164,8 @@
                     "label": "Görsellik",
                     "fields": [
                       {
-                        "label": "Arkaplan rengi"
+                        "label": "Arkaplan rengi",
+                        "default": "rgb(255, 255, 255)"
                       },
                       {
                         "label": "Kutu gölgesi",
@@ -504,6 +505,10 @@
         {
           "label": "Text for how to create interactions",
           "default": "Play the video to start creating interactions"
+        },
+        {
+          "label": "test label",
+          "default": "testtetete"
         }
       ]
     }
