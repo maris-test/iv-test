@@ -1,0 +1,30 @@
+name: PR policy
+
+on:
+  pull_request_target:
+    branches:
+      - master
+    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_review:
+    branches:
+      - master
+    types: [submitted, edited, dismissed]
+
+concurrency:
+  group: pr-policy-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  checks: write
+  pull-requests: write
+
+jobs:
+  policy:
+    uses: maris-test/reusable-workflows/.github/workflows/pull-request-policy.yml@8fcbb7f62f865a8016e15261ab94649d6719a3d4
+    with:
+      policy-ref: 8fcbb7f62f865a8016e15261ab94649d6719a3d4
+      translation-paths: '["language/*.json"]'
+      fallback-owner: makmentins
+      merge-method: merge
+      policy-check-name: H5P policy approval
