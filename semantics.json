@@ -1142,6 +1142,14 @@
         "importance": "low",
         "default": "Play the video to start creating interactions",
         "optional": true
+      },
+      {
+        "name": "test",
+        "type": "text",
+        "label": "test label",
+        "importance": "low",
+        "default": "testtetete",
+        "optional": true
       }
     ]
   }
