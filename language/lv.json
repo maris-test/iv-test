@@ -14,7 +14,7 @@
               "label": "Sākuma ekrāna opcijas (netiek atbalstītas YouTube videoklipiem)",
               "fields": [
                 {
-                  "label": "Šī interaktīvā videoklipa nosaukums",
+                  "label": "Šī interaktīvā videoklipa very good test",
                   "default": "Interaktīvais video",
                   "description": "Tiek izmantots apkopojumos, statistikā utt."
                 },
