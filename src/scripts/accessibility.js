@@ -37,6 +37,7 @@ export default class Accessibility {
    */
   constructor(l10n) {
     this.l10n = l10n;
+    console.log('hi');
 
     // Create interactions announcer
     const announcer = document.createElement('div');
