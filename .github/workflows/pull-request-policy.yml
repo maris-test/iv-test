@@ -9,6 +9,8 @@ on:
     branches:
       - master
     types: [submitted, edited, dismissed]
+  check_suite:
+    types: [completed]
 
 concurrency:
   group: pr-policy-${{ github.event.pull_request.number }}
@@ -21,9 +23,9 @@ permissions:
 
 jobs:
   policy:
-    uses: maris-test/reusable-workflows/.github/workflows/pull-request-policy.yml@476c0d10f194e8d5470c6e3c9cb20b79697e6a21
+    uses: maris-test/reusable-workflows/.github/workflows/pull-request-policy.yml@545e16f7e144ee38136b99d0165e9e01a5a27cb1
     with:
-      policy-ref: 476c0d10f194e8d5470c6e3c9cb20b79697e6a21
+      policy-ref: 545e16f7e144ee38136b99d0165e9e01a5a27cb1
       required-checks: '["ci / validate-translations"]'
       translation-paths: '["language/*.json"]'
       fallback-owner: makmentins
