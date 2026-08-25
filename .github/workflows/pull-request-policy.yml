@@ -9,8 +9,6 @@ on:
     branches:
       - master
     types: [submitted, edited, dismissed]
-  check_suite:
-    types: [completed]
 
 concurrency:
   group: pr-policy-${{ github.event.pull_request.number }}
