@@ -14,7 +14,7 @@
               "label": "Start screen options (unsupported for YouTube videos)",
               "fields": [
                 {
-                  "label": "The title of this interactive video + some valid changes",
+                  "label": "The title of this interactive video",
                   "default": "Interactive Video",
                   "description": "Used in summaries, statistics etc."
                 },
