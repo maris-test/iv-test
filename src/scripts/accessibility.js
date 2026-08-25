@@ -43,6 +43,7 @@ export default class Accessibility {
     announcer.classList.add('h5p-iv-interactions-announcer');
     announcer.setAttribute('aria-live', 'polite');
     this.interactionsAnnouncer = announcer;
+    console.log('announced');
   }
 
   /**
