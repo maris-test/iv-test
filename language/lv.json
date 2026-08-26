@@ -4,7 +4,7 @@
       "label": "Interaktīvā video redaktors",
       "fields": [
         {
-          "label": "Augšupielādēt/iegult video adsasd asdsadasd gf",
+          "label": "Augšupielādēt/iegult video adsasd asdsadasd gfa sdfasd",
           "fields": [
             {
               "label": "Video pievienošana",
@@ -13,11 +13,6 @@
             {
               "label": "Sākuma ekrāna opcijas (netiek atbalstītas YouTube videoklipiem)",
               "fields": [
-                {
-                  "label": "Šī interaktīvā videoklipa very good test",
-                  "default": "Interaktīvais video",
-                  "description": "Tiek izmantots apkopojumos, statistikā utt."
-                },
                 {
                   "label": "Šī interaktīvā videoklipa very good test",
                   "default": "Interaktīvais video",
