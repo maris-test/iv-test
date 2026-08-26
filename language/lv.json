@@ -19,6 +19,11 @@
                   "description": "Tiek izmantots apkopojumos, statistikā utt."
                 },
                 {
+                  "label": "Šī interaktīvā videoklipa very good test",
+                  "default": "Interaktīvais video",
+                  "description": "Tiek izmantots apkopojumos, statistikā utt."
+                },
+                {
                   "label": "Paslēpt nosaukumu video sākuma ekrānā"
                 },
                 {
