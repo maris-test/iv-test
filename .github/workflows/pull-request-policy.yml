@@ -24,9 +24,9 @@ permissions:
 
 jobs:
   policy:
-    uses: maris-test/reusable-workflows/.github/workflows/pull-request-policy.yml@66c57c97c799c6673c7abb2dcbcd509b7a8a07e2
+    uses: maris-test/reusable-workflows/.github/workflows/pull-request-policy.yml@13568c46a18aa1cdb9b69d505113ec987b71a5c2
     with:
-      policy-ref: 66c57c97c799c6673c7abb2dcbcd509b7a8a07e2
+      policy-ref: 13568c46a18aa1cdb9b69d505113ec987b71a5c2
       required-checks: '["ci / validate-translations", "ci / build"]'
       translation-paths: '["language/*.json"]'
       fallback-owner: makmentins
