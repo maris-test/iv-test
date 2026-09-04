@@ -22,6 +22,9 @@
                   "label": "Paslēpt nosaukumu video sākuma ekrānā"
                 },
                 {
+                  "label": "šitā nedrīkst"
+                },
+                {
                   "label": "Īss apraksts (neobligāts)",
                   "description": "Neobligāti. Parādiet īsu apraksta tekstu video sākuma ekrānā. Nedarbojas YouTube videoklipiem."
                 },
